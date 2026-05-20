@@ -1,0 +1,18 @@
+{
+  "name": "kabutarjantaparty",
+  "version": "1.0.0",
+  "description": "KABUTARJANTAPARTY - Ultra-lightweight 3D digital experience",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start",
+    "test": "cd frontend && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
+}

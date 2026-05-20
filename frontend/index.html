@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/pigeon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <meta name="theme-color" content="#0a0a0f" />
+    <meta name="description" content="KABUTARJANTAPARTY - Join the flock. Secular. Socialist. Digital party for everyone." />
+    <meta name="keywords" content="kabutarjantaparty, pigeon party, digital revolution, meme culture" />
+    <meta name="author" content="KABUTARJANTAPARTY" />
+    <meta property="og:title" content="KABUTARJANTAPARTY - Digital Revolution" />
+    <meta property="og:description" content="Join the pigeon party. Rise together." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/kabutar.jpeg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="KABUTARJANTAPARTY" />
+    <meta name="twitter:description" content="Join the pigeon party" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <title>KABUTARJANTAPARTY</title>
+    <style>
+      /* Critical CSS - prevent FOUC */
+      html, body { background: #0a0a0f; color: #ffffff; }
+      #root { min-height: 100vh; }
+      .loading-screen {
+        position: fixed; inset: 0; background: #0a0a0f;
+        display: flex; align-items: center; justify-content: center;
+        z-index: 9999; transition: opacity 0.5s ease;
+      }
+      .loading-screen.hidden { opacity: 0; pointer-events: none; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <div id="loading-screen" class="loading-screen">
+      <div style="text-align:center;">
+        <div style="font-family:monospace;font-size:14px;color:#39ff14;margin-bottom:12px;">LOADING_KABUTARJANTAPARTY.exe</div>
+        <div style="width:200px;height:2px;background:#1a1a2e;border-radius:2px;overflow:hidden;">
+          <div id="loading-bar" style="width:0%;height:100%;background:#39ff14;transition:width 0.3s ease;"></div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      // Progressive loading bar
+      let progress = 0;
+      const bar = document.getElementById('loading-bar');
+      const interval = setInterval(() => {
+        progress += Math.random() * 15;
+        if (progress >= 100) { progress = 100; clearInterval(interval); }
+        bar.style.width = progress + '%';
+      }, 100);
+    </script>
+  </body>
+</html>
