@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react'
 import { motion, useInView } from 'framer-motion'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Megaphone, MessageCircle, Wifi, Moon, SearchX, Heart, Flame, Brain, Moon } from 'lucide-react'
+import { Megaphone, MessageCircle, Wifi, Moon, SearchX, Heart, Flame, Brain } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -28,13 +28,13 @@ const manifestoPoints = [
   {
     icon: Moon,
     title: 'PS5 Seva',
-    description: 'Everyone gets a PS5 with 100 exclusive games',
+    description: 'Everyone gets a PS5',
     color: '#bc13fe',
   },
   {
     icon: SearchX,
     title: 'No more exams',
-    description: 'Just Aura Farming',
+    description: 'Just arua farming',
     color: '#ffea00',
   },
   {
