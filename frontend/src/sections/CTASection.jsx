@@ -20,7 +20,7 @@ const socialLinks = [
 const floatingCards = [
   { title: 'Headquarters', desc: 'Everywhere', color: '#39ff14' },
   { title: 'HARDIK JAIN', desc: 'Founder', color: '#ff006e' },
-  { title: 'Eyes', desc: 'On everyone', colxor: '#00f5ff' },
+  { title: 'HARSHIT JAIN', desc: 'CO-FOUNDER', color: '#00f5ff' },
 ]
 
 export default function CTASection() {
