@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "KABUTARJANTAPARTY - Ultra-lightweight 3D digital experience",
   "scripts": {
-    "install:all": "cd backend && npm install && cd ../frontend && npm install",
     "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\"",
     "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
-    "start": "cd backend && npm start",
-    "test": "cd frontend && npm test"
+    "start": "cd backend && npm start"
   },
   "devDependencies": {
     "concurrently": "^8.2.2"
