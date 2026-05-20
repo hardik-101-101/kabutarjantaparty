@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from 'react'
 import { motion, useInView } from 'framer-motion'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { Megaphone, MessageCircle, Wifi, Moon, SearchX, Heart, Flame, Brain } from 'lucide-react'
+import { Megaphone, MessageCircle, Wifi, Game, SearchX, Heart, Flame, Brain } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -15,32 +15,32 @@ const manifestoPoints = [
   },
   {
     icon: MessageCircle,
-    title: 'Memes are free speech',
-    description: 'The most powerful communication tool of our generation. Censorship is cowardice.',
+    title: 'Free IPhone Seva',
+    description: 'Everyone gets an IPhone 17 Pro Max 2TB',
     color: '#00f5ff',
   },
   {
     icon: Wifi,
-    title: 'Eat.Sleep.Scroll.Repeat',
-    description: 'Humanity`s most successful full-time job with zero salary and unlimited screen time.',
+    title: 'Get Salary on Scrolling',
+    description: 'Sabka Saath, Sabka Vikas',
     color: '#39ff14',
   },
   {
-    icon: Moon,
-    title: 'Sleep is resistance',
-    description: 'In a world that demands 24/7 productivity, choosing rest is a radical act of defiance.',
+    icon: Game,
+    title: 'PS5 Seva',
+    description: 'Everyone gets a PS5 with 100 exclusive games',
     color: '#bc13fe',
   },
   {
     icon: SearchX,
-    title: 'Freedom to Fly',
-    description: 'No cage, no restrictions',
+    title: 'No more exams',
+    description: 'Just Aura Farming',
     color: '#ffea00',
   },
   {
     icon: Heart,
-    title: 'Vibe over grind',
-    description: 'Life is too short for hustle culture. We prioritize joy, connection, and authentic existence.',
+    title: 'Everyone gets one sponsored international trip',
+    description: 'Hum bhi ghum rahe hain,tum bhi ghumo.Enjoy!',
     color: '#ff6b35',
   },
 ]
