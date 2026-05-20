@@ -110,7 +110,7 @@ export default function CTASection() {
           transition={{ duration: 0.8 }}
           className="text-5xl sm:text-6xl md:text-8xl font-black tracking-tighter text-white mb-6"
         >
-        JOIN THE<span className="text-gradient">KABUTARJANTAPARTY</span>
+        JOIN<span className="text-gradient">KABUTARJANTAPARTY</span>
         </motion.h2>
 
         <motion.p
