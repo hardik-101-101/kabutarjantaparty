@@ -9,8 +9,8 @@ gsap.registerPlugin(ScrollTrigger)
 const manifestoPoints = [
   {
     icon: Megaphone,
-    title: 'Ban boring politics',
-    description: 'If your political take needs a PowerPoint, it\'s already dead. We meme our way to change.',
+    title: 'Sabka Saath, Sabka Vikas',
+    description: 'Modi ji ne bola tha.',
     color: '#ff006e',
   },
   {
@@ -21,8 +21,8 @@ const manifestoPoints = [
   },
   {
     icon: Wifi,
-    title: 'Jobs & Economy',
-    description: 'Rozgar with Wings',
+    title: 'Eat.Sleep.Scroll.Repeat',
+    description: 'Humanity`s most successful full-time job with zero salary and unlimited screen time.',
     color: '#39ff14',
   },
   {
@@ -34,7 +34,7 @@ const manifestoPoints = [
   {
     icon: SearchX,
     title: 'Freedom to Fly',
-    description: 'No cage, no restrictions,pure rooftop energy',
+    description: 'No cage, no restrictions',
     color: '#ffea00',
   },
   {
@@ -152,7 +152,7 @@ export default function ManifestoSection() {
             THE <span className="text-gradient">KABUTAR</span> AURA
           </h2>
           <p className="text-chaos-text-secondary max-w-2xl mx-auto text-lg">
-            Udta Hai Future-Kabutar Style.No Bakwas, Only Seedha Seedha Vibes.
+            We Don't Hustle,We Farm ∞ Aura
           </p>
         </motion.div>
 
